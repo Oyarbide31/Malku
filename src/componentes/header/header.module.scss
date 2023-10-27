@@ -1,0 +1,44 @@
+.imgHeader {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  cursor: pointer;
+  height: 8vw;
+  padding: 4rem;
+  object-fit: contain;
+
+  @media (width < 800px) {
+    height: 3.5 rem;
+  }
+}
+
+.buttonContainer {
+  display: flex;
+  padding-bottom: 2%;
+  justify-content: space-evenly;
+  gap: 0.5rem;
+  @media (width < 800px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem;
+  }
+}
+
+.helloName {
+  font-weight: bold;
+  font-size: 2rem;
+  text-decoration: underline;
+  @media (width < 800px) {
+    padding-bottom: 2rem;
+  }
+}
+
+.imgContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  @media (width < 800px) {
+    flex-direction: column;
+  }
+}

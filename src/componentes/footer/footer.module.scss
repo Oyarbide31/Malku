@@ -1,0 +1,21 @@
+.mainFooter {
+  box-sizing: border-box;
+  color: white;
+  padding: 20px;
+  justify-content: space-between;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.containerImg {
+  margin: 0px;
+  display: flex;
+}
+.imgFooter {
+  text-align: right;
+  width: auto;
+  height: 3rem;
+  float: right;
+}

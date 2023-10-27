@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  textarea {
+    height: 20rem;
+  }
+}
+
+.item {
+  margin-bottom: 1rem;
+}
+
+.body {
+  min-width: 100%;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  text-decoration: underline;
+}
+.guardar {
+  margin-top: 3%;
+}
